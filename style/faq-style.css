@@ -34,6 +34,7 @@ th {
 }
 
 tr:hover {
+    transition: .5s;
     background-color: #08D478;
 }
 
