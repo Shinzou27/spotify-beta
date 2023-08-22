@@ -51,6 +51,13 @@ body {
     height: max-content;
 }
 
+.login {
+    display: flex;
+    gap: 1em;
+    justify-content: end;
+    margin-right: 1em;
+}
+
 .playlists {
     background-color: #1e1e1e;
     border-radius: 10px;
