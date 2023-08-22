@@ -1,0 +1,110 @@
+body {
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.outer-div {
+    display: flex;
+    height: 100%;
+}
+
+.left {
+    width: 20%;
+    padding-right: .5em;
+}
+
+.right {
+    padding-left: .5em;
+    width: 80%;
+    height: 95%;
+}
+
+.navbar {
+    height: 20%;
+}
+.navbar img {
+    width: 32px;
+    padding-right: 30px;
+}
+
+.user {
+    height: 75%;
+}
+
+.user-list li {
+    list-style-type: none;
+    margin: 1em 0;
+    padding-left: 1em;
+    border-left: 1px solid aliceblue;
+}
+.box {
+    background-color: #121212;
+    border-radius: 20px;
+    padding: .3em;
+    margin: .3em;
+}
+
+.home {
+    padding-top: 2em;
+    height: max-content;
+}
+
+.playlists {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: .5em;
+    padding-bottom: 4em;
+    margin-bottom: 1em;
+}
+
+.center {
+    margin: auto;
+}
+
+.form {
+    display: block;
+    font-size: 2em;
+}
+.form input {
+    width: 300px;
+    height: 30px;
+    display: block;
+}
+.form button {
+    width: 300px;
+    height: 30px;
+    background-color: #121212;
+    border: none;
+    color: aliceblue;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.covers {
+    display: flex;
+}
+.covers img {
+    width: 192px;
+    margin: 0 1em;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+a:hover {
+    transition: .5s;
+    color: rgb(95, 183, 99);
+}
