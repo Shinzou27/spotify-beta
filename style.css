@@ -1,6 +1,6 @@
 body {
-    background-color: black;
-    color: aliceblue;
+    background-color: #000000;
+    color: #f0f8ff;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -36,7 +36,7 @@ body {
     list-style-type: none;
     margin: 1em 0;
     padding-left: 1em;
-    border-left: 1px solid aliceblue;
+    border-left: 1px solid #f0f8ff;
 }
 .box {
     background-color: #121212;
@@ -60,25 +60,35 @@ body {
 
 .center {
     margin: auto;
+    text-align: center;
+    align-items: center;
 }
 
 .form {
     display: block;
+    background-color: #121212;
+    border-radius: 15px;
+    padding: .5em;
+}
+.form h1, .form h2, .form h3, .form h4, .form h5, .form h6, .form label {
     font-size: 2em;
 }
 .form input {
+    margin: auto;
     width: 300px;
     height: 30px;
     display: block;
+    margin-bottom: 10px;
 }
 .form button {
     width: 300px;
     height: 30px;
     background-color: #121212;
-    border: none;
-    color: aliceblue;
+    border: 1px solid #f0f8ff;
+    color: #f0f8ff;
     font-size: 20px;
     border-radius: 5px;
+    cursor: pointer;
 }
 .covers {
     display: flex;
@@ -86,6 +96,29 @@ body {
 .covers img {
     width: 192px;
     margin: 0 1em;
+}
+.name-inputs {
+    display: flex;
+}
+.name-inputs input {
+    width: fit-content;
+}
+.checkbox-input {
+    display: inline-block;
+}
+.checkbox-input div {
+    display: flex;
+}
+.checkbox-input input {
+    width: fit-content;
+    margin: 12px;
+}
+
+#first-name {
+    margin-right: 0;
+}
+#last-name {
+    margin-left: 0;
 }
 table {
     font-family: arial, sans-serif;
@@ -102,9 +135,9 @@ th {
 
 a {
     text-decoration: none;
-    color: aliceblue;
+    color: #f0f8ff;
 }
 a:hover {
     transition: .5s;
-    color: rgb(95, 183, 99);
+    color: #5fb763;
 }
